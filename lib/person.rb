@@ -55,6 +55,8 @@ class Person
   end
   
   def start_conversation(person, topic)
+    case topic
+  end
     
   end
   
