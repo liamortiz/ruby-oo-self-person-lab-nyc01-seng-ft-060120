@@ -23,7 +23,7 @@ class Person
   end
   
   def happy?
-    return (@happiness > 7)
+    (@happiness > 7)
   end
   
 end
