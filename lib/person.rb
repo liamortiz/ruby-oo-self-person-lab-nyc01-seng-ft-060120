@@ -57,9 +57,13 @@ class Person
   def start_conversation(person, topic)
     case topic
       when "politics"
-        person.happiness=(person.happiness - 3)
-        ""
+        person.happiness=(person.happiness - 2)
+        self.happiness=(@happiness - 2)
+        "blah blah partisan blah lobbyist"
+        
       when "weather"
+        person.happiness=(person.happiness + 1)
+        self.happiness=(@happiness + 1)
         ""
       when ""
     end
