@@ -54,4 +54,8 @@ class Person
     "Hi #{person.name}! It's #{@name}. How are you?"
   end
   
+  def start_conversation(person, topic)
+    
+  end
+  
 end
