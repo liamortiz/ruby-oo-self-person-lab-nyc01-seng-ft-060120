@@ -44,7 +44,7 @@ class Person
   def work_out
     self.hygiene=(@hygiene - 4)
     self.happiness=(@happiness + 2)
-    
+    "♪ another one bites the dust ♫"
   end
   
 end
