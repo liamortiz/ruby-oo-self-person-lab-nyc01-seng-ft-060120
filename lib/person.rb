@@ -55,6 +55,12 @@ class Person
   end
   
   def start_conversation(person, topic)
-    
+    case topic
+      when "politics"
+        ""
+      when "weather"
+        ""
+      when ""
+    end
   end
 end
