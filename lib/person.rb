@@ -22,4 +22,8 @@ class Person
     if @hygiene < 0 then @hygiene = 0 end
   end
   
+  def happy?
+    return (@happiness > 7)
+  end
+  
 end
