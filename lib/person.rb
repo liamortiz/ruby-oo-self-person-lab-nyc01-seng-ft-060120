@@ -51,7 +51,7 @@ class Person
     person.happiness=(person.happiness + 3)
     self.happiness=(@happiness + 3)
     
-    if person.name == 'Felix' then return "Hi Felix! It's Stella. How are you?" end
+    "Hi #{person.name}! It's #{@name}. How are you?"
   end
   
 end
