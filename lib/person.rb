@@ -34,4 +34,9 @@ class Person
     "all about the benjamins"
   end
   
+  def take_bath
+    hygiene(@hygiene + 4)
+    
+  end
+  
 end
