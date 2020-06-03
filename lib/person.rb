@@ -35,7 +35,7 @@ class Person
   end
   
   def take_bath
-    hygiene(@hygiene + 4)
+    hygiene=(@hygiene + 4)
     "♪ another one bites the dust ♫"
   end
   
