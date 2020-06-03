@@ -65,7 +65,7 @@ class Person
         person.happiness=(person.happiness + 1)
         self.happiness=(@happiness + 1)
         "blah blah sun blah rain"
-      when ""
+      else "blah blah blah blah blah"
     end
   end
 end
