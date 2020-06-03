@@ -57,6 +57,7 @@ class Person
   def start_conversation(person, topic)
     case topic
       when "politics"
+        person.happiness=(person.happiness - 3)
         ""
       when "weather"
         ""
