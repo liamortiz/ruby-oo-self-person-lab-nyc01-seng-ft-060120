@@ -47,8 +47,8 @@ class Person
     "♪ another one bites the dust ♫"
   end
   
-  def call_friend(person_instance)
-    person_instance.happiness=(person_instance.happiness + 3)
+  def call_friend(person)
+    person.happiness=(person.happiness + 3)
     "Hi Felix! It's Stella. How are you?"
   end
   
